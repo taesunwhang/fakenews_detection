@@ -2,12 +2,11 @@
 Implementation of BERT baseline for fakenews detection (fnc-1)
 
 ### Requirements
-- Code is written in Python (3.6) and requires tensorflo-gpu-1.13.1
+- Code is written in Python (3.6) and requires tensorflow-gpu-1.13.1
 - This code is implemented based on https://github.com/google-research/bert
 
 ### Data Preprocessing
 The dataset is publicly avaliable in https://github.com/FakeNewsChallenge/fnc-1
-
 To make dataset for training BERT, run
 
     python3 fnc-1/data_utils.py
